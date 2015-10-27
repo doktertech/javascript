@@ -1,4 +1,3 @@
-//<![CDATA[
 function pageNavi(o) {
     var m = location.href,
         l = m.indexOf("/search/label/") != -1,
@@ -79,4 +78,3 @@ pageNavi.show = function (f, e, a) {
         document.write('<script type="text/javascript" src="/feeds/posts/summary?alt=json-in-script&callback=pageNavi&max-results=99999"><\/script>')
     }
 })();
-//]]>
