@@ -1,0 +1,3 @@
+//<![CDATA[
+/android|iphone|ipod|series60|symbian|windows ce|blackberry/i.test(navigator.userAgent)||jQuery(function(b){b("a[href]").filter(function(){return/\.(jpg|png|gif)$/i.test(this.href)}).slimbox({},null,function(a){return this==a||this.parentNode&&this.parentNode==a.parentNode})});
+//]]>
