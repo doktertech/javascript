@@ -1,4 +1,4 @@
-//<![CDATA[
+
 /* Modernizr 2.7.1 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-flexboxlegacy-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-cssclasses-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load
  */
@@ -31,4 +31,3 @@ b.pop(),e=b.length,d={url:d,origUrl:d,prefixes:b},f,h,g;for(h=0;h<e;h++)g=b[h].s
 b);l()}}(k[q])),d(a[q],h,b,q,e))}else!f&&l()}var e=!!a.test,g=a.load||a.both,h=a.callback||p,k=h,l=a.complete||p,m,q;c(e?a.yep:a.nope,!!g);g&&c(g)}var k,g,l=this.yepnope.loader;if(B(b))d(b,0,l,0);else if(A(b))for(k=0;k<b.length;k++)g=b[k],B(g)?d(g,0,l,0):A(g)?a(g):Object(g)===g&&f(g,l);else Object(b)===b&&f(b,l)};a.addPrefix=function(a,c){F[a]=c};a.addFilter=function(a){J.push(a)};a.errorTimeout=1E4;null==d.readyState&&d.addEventListener&&(d.readyState="loading",d.addEventListener("DOMContentLoaded",
 K=function(){d.removeEventListener("DOMContentLoaded",K,0);d.readyState="complete"},0));g.yepnope=m();g.yepnope.executeStack=f;g.yepnope.injectJs=function(b,c,g,k,m,q){var l=d.createElement("script"),r,n;k=k||a.errorTimeout;l.src=b;for(n in g)l.setAttribute(n,g[n]);c=q?f:c||p;l.onreadystatechange=l.onload=function(){!r&&O(l.readyState)&&(r=1,c(),l.onload=l.onreadystatechange=null)};w(function(){r||(r=1,c(1))},k);m?l.onload():x.parentNode.insertBefore(l,x)};g.yepnope.injectCss=function(a,c,g,k,m,q){k=
 d.createElement("link");var l;c=q?f:c||p;k.href=a;k.rel="stylesheet";k.type="text/css";for(l in g)k.setAttribute(l,g[l]);m||(x.parentNode.insertBefore(k,x),w(c,0))}})(this,document);Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};
-//]]>
