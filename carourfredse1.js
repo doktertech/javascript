@@ -1,5 +1,3 @@
-//<![CDATA[
-
 /*
  *	jQuery carouFredSel 6.1.0
  *	Demo's and documentation:
@@ -101,4 +99,3 @@ h),[!0,A]);d.trigger(e("linkAnchors",h));h.debug&&d.trigger(e("debug",h));return
 function(a){return'<a href="#"><span>'+a+"</span></a>"},m.fn.carouFredSel.progressbarUpdater=function(a){m(this).css("width",a+"%")},m.fn.carouFredSel.cookie={get:function(a){a+="=";for(var c=document.cookie.split(";"),d=0,e=c.length;d<e;d++){for(var m=c[d];" "==m.charAt(0);)m=m.slice(1);if(0==m.indexOf(a))return m.slice(a.length)}return 0},set:function(a,c,d){var e="";d&&(e=new Date,e.setTime(e.getTime()+864E5*d),e="; expires="+e.toGMTString());document.cookie=a+"="+c+e+"; path=/"},remove:function(a){m.fn.carouFredSel.cookie.set(a,
 "",-1)}},m.extend(m.easing,{quadratic:function(a){var c=a*a;return a*(-c*a+4*c-6*a+4)},cubic:function(a){return a*(4*a*a-9*a+6)},elastic:function(a){var c=a*a;return a*(33*c*c-106*c*a+126*c-67*a+15)}}))})(jQuery);$(window).load(function(){$("#carousel ul").carouFredSel();$("#carousel ul").carouFredSel({responsive:true,circular: false,items:4,prev:"#prev2",next:"#next2",pagination:"#pager2",auto:!0,scroll:{items:1,easing:"",duration:1000,pauseOnHover:!0}})});
 $(window).load(function(){$(".news-ticker ul").carouFredSel();$(".news-ticker ul").carouFredSel({circular:!0,direction:"up",items:1,prev:"#prev",next:"#next",pagination:"#pager",scroll:{items:1,easing:"",duration:1E3,pauseOnHover:!0}})});
-//]]>
